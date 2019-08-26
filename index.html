@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Yan Liu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: sans-serif;
+      font-size: calc(10px + 0.33vw);
+      -webkit-font-smoothing: antialiased;
+      padding: 5vh 10vw;
+      color: #333;
+    }
+    h1 {
+      font-size: 4.5em;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 1.6em;
+      font-weight: 300;
+      line-height: 1.5;
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+      position: relative;
+    }
+    a:after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 80%;
+      left: -0.1em;
+      right: -0.1em;
+      bottom: 0;
+      transition: top 200ms cubic-bezier(0, .8, .13, 1);
+      background-color: rgba(21,160,230,0.5);
+    }
+    a:hover:after {
+      top: 0%;
+    }
+    img{
+        width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>你好，</h1>
+  <p style="font-weight:500; font-size:2.2em">
+    我的名字叫刘延，是一名多伦多地产经纪。
+  </p>
+  <p>
+    如果你有地产相关的问题或者打算买房，卖房，租房都可以来找我。微信二维码：<img src="wechat-qrcode.png"/>
+  </p>
+  <p>
+    一些方便有用的官方链接：<br/>
+    <a href="http://itools-ioutils.fcac-acfc.gc.ca/MC-CH/MC-CH-eng.aspx" target="_blank">房贷计算器</a></br>
+    <a href="http://www.trebhome.com/index.php/buying/calculators" target="_blank">土地转让税计算器</a><br/>
+    <a href="https://www.walkscore.com/" target="_blank">Walk Score</a><br/>
+    <a href="https://www.protectyourboundaries.ca/" target="_blank">Land Survey Search</a><br/>
+    <a href="https://tdsb.on.ca/find-your/school" target="_blank">TDSB学区</a><br/>
+    <a href="http://www.yrdsb.ca/schools/pages/school-locator.aspx" target="_blank">YRDSB学区</a>
+  </p>
+</body>
+</html>
